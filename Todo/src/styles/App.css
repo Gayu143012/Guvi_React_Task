@@ -1,0 +1,110 @@
+/* TodoCard */
+.todo-card {
+  padding: 16px;
+  margin-bottom: 16px;
+  background: linear-gradient(135deg, #97ebbd, #93dbc0); 
+  border: 1px solid #a8d8a8; /* Soft green border */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.todo-card:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.todo-name {
+  font-weight: bold;
+  color: #2c6a4d; /* Darker green text for name */
+}
+
+.todo-description {
+  color: #4c8c64; /* Softer green text for description */
+}
+
+.status-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.status-label {
+  margin-right: 10px;
+  font-weight: bold;
+  color: #2c6a4d; /* Dark green label for contrast */
+}
+
+.status-select {
+  width: 170px;
+  background-color: #ffffff;
+  color: #333;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #c4c4c4; /* Soft border */
+  padding: 5px;
+}
+
+.status-select:focus {
+  outline: none;
+  border: 1px solid #9ae3b7; /* Light green focus border */
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-edit {
+  background-color: #77dd77; /* Light green */
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.btn-edit:hover {
+  background-color: #66bb6a; /* Slightly darker green on hover */
+}
+
+.btn-delete {
+  background-color: #ff7f7f; 
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background-color: #ff5f5f; 
+}
+/* NavBar.css */
+.navbar {
+  background-color: #6dbf62; /* Lighter green for the navbar */
+  padding: 15px 0;  /* Add some vertical padding for spacing */
+  display: flex;
+  justify-content: center; /* This centers the navbar content */
+  align-items: center;
+  font-family: 'Arial', sans-serif; /* Custom font */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-title {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0;
+}
+/* App */
+h1.text-center {
+  font-family: 'Poppins', sans-serif; /* Apply the new font */
+  font-weight: 600;  /* Use a bold font-weight */
+  color: #2c3e50;  
+  text-transform: uppercase;
+  letter-spacing: 2px;  /* Add some space between letters */
+}
