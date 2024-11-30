@@ -1,0 +1,70 @@
+/* index.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #343a40 !important;
+}
+
+.navbar a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* HomePage styles */
+.home-page {
+  background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%);
+  padding: 120px 0;
+}
+
+.home-page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-wrapper {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Card Styles */
+.user-card {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  margin-top: 10px;
+  margin-right: 5px;
+}
